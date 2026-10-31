@@ -1,0 +1,10 @@
+{"comment": "SIMULATED fixture, not real model output. t = simulated seconds since start.", "utterance_id": "sim-001", "text": "تق", "is_final": false, "t": 0.0}
+{"utterance_id": "sim-001", "text": "تقدّم", "is_final": true, "t": 0.2}
+{"comment": "retransmission of the same final utterance -> DUPLICATE", "utterance_id": "sim-001", "text": "تقدّم", "is_final": true, "t": 0.3}
+{"comment": "stop during the movement", "utterance_id": "sim-002", "text": "وقف", "is_final": true, "t": 0.6}
+{"comment": "negation -> rejected, no movement", "utterance_id": "sim-003", "text": "ما تتقدّمش", "is_final": true, "t": 2.0}
+{"comment": "unknown expression", "utterance_id": "sim-004", "text": "دور على روحك", "is_final": true, "t": 2.5}
+{"comment": "two orders in one input -> rejected", "utterance_id": "sim-005", "text": "تقدّم و اطلع", "is_final": true, "t": 3.0}
+{"comment": "lateral translation, ends by duration", "utterance_id": "sim-006", "text": "امشي لليمين", "is_final": true, "t": 4.0}
+{"comment": "same text as sim-001 but a distinct utterance -> legitimate new command", "utterance_id": "sim-007", "text": "تقدّم", "is_final": true, "t": 6.0}
+{"comment": "new command during a movement replaces it", "utterance_id": "sim-008", "text": "اطلع", "is_final": true, "t": 6.5}

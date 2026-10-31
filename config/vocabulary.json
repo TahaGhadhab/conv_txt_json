@@ -1,0 +1,14 @@
+{
+  "format_version": 1,
+  "status": "PROVISIONAL",
+  "note": "Exemples de démarrage, pas un lexique tunisien certifié. À valider avec les utilisateurs et à confronter aux sorties réelles du modèle de reconnaissance avant tout usage. Correspondance exacte sur la phrase complète normalisée.",
+  "entries": [
+    {"expression": "تقدّم", "intent": "MOVE_FORWARD"},
+    {"expression": "ارجع", "intent": "MOVE_BACKWARD"},
+    {"expression": "امشي لليمين", "intent": "MOVE_RIGHT", "note": "translation latérale à droite, pas une rotation"},
+    {"expression": "امشي لليسار", "intent": "MOVE_LEFT", "note": "translation latérale à gauche, pas une rotation"},
+    {"expression": "اطلع", "intent": "MOVE_UP"},
+    {"expression": "اهبط", "intent": "MOVE_DOWN", "note": "descendre, ce n'est pas atterrir"},
+    {"expression": "وقف", "intent": "STOP", "note": "arrêter le déplacement et tenir la position, jamais couper les moteurs"}
+  ]
+}

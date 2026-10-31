@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "command_id": "cmd-6462aa82-4645-5744-86e5-9b9cdb1368fe",
+  "utterance_id": "example-2",
+  "source": "manual-input",
+  "created_at": "2026-01-01T12:00:00.000Z",
+  "expires_at": "2026-01-01T12:00:02.000Z",
+  "recognized_text": "ما تتقدّمش",
+  "normalized_text": "ما تتقدمش",
+  "intent": null,
+  "status": "rejected",
+  "reason": "UNKNOWN_EXPRESSION",
+  "confidence": null
+}

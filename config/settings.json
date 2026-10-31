@@ -1,0 +1,22 @@
+{
+  "format_version": 1,
+  "simulation_only": true,
+  "note": "Valeurs du prototype réservées à la simulation locale. Ce ne sont PAS des paramètres de vol validés. Plafonds absolus dans drone_voice/settings.py.",
+  "message": {
+    "ttl_s": 2.0,
+    "max_ttl_s": 10.0,
+    "max_future_skew_s": 0.5
+  },
+  "motion": {
+    "max_speed_m_s": 0.5,
+    "max_duration_s": 3.0,
+    "intents": {
+      "MOVE_FORWARD": {"speed_m_s": 0.3, "duration_s": 1.0},
+      "MOVE_BACKWARD": {"speed_m_s": 0.3, "duration_s": 1.0},
+      "MOVE_RIGHT": {"speed_m_s": 0.3, "duration_s": 1.0},
+      "MOVE_LEFT": {"speed_m_s": 0.3, "duration_s": 1.0},
+      "MOVE_UP": {"speed_m_s": 0.2, "duration_s": 1.0},
+      "MOVE_DOWN": {"speed_m_s": 0.2, "duration_s": 1.0}
+    }
+  }
+}

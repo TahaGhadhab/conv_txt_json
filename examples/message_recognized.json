@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "command_id": "cmd-f428aaa1-c2cf-5053-b823-793e81d45bef",
+  "utterance_id": "example-1",
+  "source": "manual-input",
+  "created_at": "2026-01-01T12:00:00.000Z",
+  "expires_at": "2026-01-01T12:00:02.000Z",
+  "recognized_text": "تقدّم",
+  "normalized_text": "تقدم",
+  "intent": "MOVE_FORWARD",
+  "status": "recognized",
+  "reason": null,
+  "confidence": null
+}
